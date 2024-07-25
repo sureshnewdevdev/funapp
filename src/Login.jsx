@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 
 const Login = () => {
   const [username, setUsername] = useState('admin');
+
   const [password, setPassword] = useState('');
   const [message, setMessage] = useState('');
 
@@ -28,6 +29,12 @@ const Login = () => {
             type="text"
             value={username}
             onChange={(e) => setUsername(e.target.value)}
+          />
+          <input
+          name='rrr'
+            type="text"
+            value={username}
+           
           />
         </div>
         <div>

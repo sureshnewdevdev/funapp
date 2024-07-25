@@ -8,6 +8,7 @@ import Greet from './Greet'
 import ListProduct from './ListProduct'
 import ProductList from './ProductList'
 import Login from './Login'
+import Parent from './Parent'
  
 
 function App() {
@@ -15,7 +16,19 @@ function App() {
 
   return (
     <div>
-      <ListProduct></ListProduct>
+
+{/* <div>
+      <h1>Children Props Example</h1>
+      <Publisher>
+        <Subscriber name="Subscriber 1" />
+        <Subscriber name="Subscriber 2" />
+        <Subscriber name="Subscriber 3" />
+      </Publisher>
+    </div> */}
+ 
+     {/* <SelectableList />
+     <Parent></Parent> */}
+      {/* <ListProduct></ListProduct> */}
 
     {/* <div>
       <h1>Product Listing</h1>
